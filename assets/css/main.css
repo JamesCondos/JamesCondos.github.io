@@ -1996,16 +1996,16 @@ input, select, textarea {
 
 		.features section {
 			padding: 3.5em 3em 1em 7em ;
-			width: 50%;
+			width: 33.333%;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: sticky;
 		}
 
-			.features section:nth-child(-n + 2) {
+			.features section:nth-child(-n + 3) {
 				border-top-width: 0;
 			}
 
-			.features section:nth-child(2n) {
+			.features section:nth-child(1n) {
 				border-left: solid 1px rgba(255, 255, 255, 0.15);
 			}
 
@@ -3213,11 +3213,11 @@ input, select, textarea {
 	.wrapper {
 		position: relative;
 	}
-
+		
 		.wrapper > .inner {
 			padding: 5em 5em 3em 5em ;
 			max-width: 100%;
-			width: 75em;
+			/*HERE*/width: 100em;
 		}
 
 			@media screen and (max-width: 1680px) {
